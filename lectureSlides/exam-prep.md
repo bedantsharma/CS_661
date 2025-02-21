@@ -63,15 +63,9 @@
 ## 5. Discuss three techniques that are used to denoise data sets after it is acquired.
 
 **Answer:**  
-1. **Filtering Techniques:**  
-   - **Low-Pass Filtering:** Removes high-frequency noise while retaining the overall trend.
-   - **Moving Average Filtering:** Smooths the data by averaging nearby data points.
-
-2. **Smoothing Techniques:**  
-   - **Gaussian Smoothing:** Applies a Gaussian kernel to reduce random variations in the data, thereby smoothing out noise.
-
-3. **Transform-Based Methods:**  
-   - **Wavelet Transforms:** Decomposes the data into different frequency components, allowing selective removal of noise while preserving important signal features.
+1. **binning** : divide the data into bins and then assign each of the bins a representative value (mean , median).
+2. **clustering** : cluster the data into smaller cluster with the objective of bringing simillar elements together
+3. **regression** : liner or non liner regression to find the underlying equation that governs the data
 
 ---
 
